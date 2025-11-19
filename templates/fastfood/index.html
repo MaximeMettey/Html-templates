@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant Fast-Food - Les meilleurs burgers et plats rapides de la ville">
+    <meta name="keywords" content="fast-food, burger, restaurant, livraison">
+    <title>Burger House - Fast Food Premium</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-burger"></i>
+                    <span>Burger House</span>
+                </div>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#about" class="nav-link">À Propos</a></li>
+                    <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                    <li><a href="#testimonials" class="nav-link">Avis</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="tel:+33123456789" class="btn-call">
+                        <i class="fas fa-phone"></i>
+                        <span>01 23 45 67 89</span>
+                    </a>
+                    <button class="btn btn-primary">Commander</button>
+                </div>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <span class="hero-subtitle">Bienvenue chez Burger House</span>
+                <h1 class="hero-title">Les Meilleurs Burgers<br>de la Ville</h1>
+                <p class="hero-description">Des ingrédients frais, des recettes uniques et une passion pour la qualité. Découvrez l'expérience fast-food réinventée.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary btn-lg">Voir le Menu</a>
+                    <a href="#contact" class="btn btn-outline btn-lg">Réserver</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Livraison 30min</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>100% Frais</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-star"></i>
+                        <span>Note 4.9/5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Notre Sélection</span>
+                <h2 class="section-title">Menu Signature</h2>
+                <p class="section-description">Découvrez nos créations culinaires uniques, préparées avec passion</p>
+            </div>
+
+            <div class="menu-categories" data-aos="fade-up" data-aos-delay="100">
+                <button class="category-btn active" data-category="all">Tout</button>
+                <button class="category-btn" data-category="burgers">Burgers</button>
+                <button class="category-btn" data-category="sides">Accompagnements</button>
+                <button class="category-btn" data-category="drinks">Boissons</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Burger Items -->
+                <div class="menu-item" data-category="burgers" data-aos="zoom-in">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" alt="Classic Burger">
+                        <div class="menu-item-badge">Populaire</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Classic Burger</h3>
+                        <p class="menu-item-description">Steak haché, cheddar, salade, tomate, oignons, sauce maison</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">8.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="burgers" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" alt="Bacon Deluxe">
+                        <div class="menu-item-badge hot">Nouveau</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Bacon Deluxe</h3>
+                        <p class="menu-item-description">Double steak, bacon croustillant, cheddar, sauce BBQ</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">11.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="burgers" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=500" alt="Veggie Burger">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Veggie Burger</h3>
+                        <p class="menu-item-description">Steak végétal, avocat, tomate, roquette, sauce vegan</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">9.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sides -->
+                <div class="menu-item" data-category="sides" data-aos="zoom-in">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500" alt="Frites Maison">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Frites Maison</h3>
+                        <p class="menu-item-description">Pommes de terre fraîches, croustillantes à souhait</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">3.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="sides" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1619740455993-9e8c4e6d9d30?w=500" alt="Onion Rings">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Onion Rings</h3>
+                        <p class="menu-item-description">Rondelles d'oignon panées, sauce ranch</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">4.50€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="sides" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1618428786548-d3c5e2b5c093?w=500" alt="Nuggets">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Nuggets Premium</h3>
+                        <p class="menu-item-description">6 pièces de poulet tendre, sauce au choix</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">5.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-item" data-category="drinks" data-aos="zoom-in">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1546173159-315724a31696?w=500" alt="Milkshake">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Milkshake Vanille</h3>
+                        <p class="menu-item-description">Crème glacée, lait frais, chantilly</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">4.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="drinks" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=500" alt="Soda">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Sodas</h3>
+                        <p class="menu-item-description">Coca, Fanta, Sprite - 33cl ou 50cl</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">2.90€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-item" data-category="desserts" data-aos="zoom-in">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500" alt="Brownie">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Brownie Chocolat</h3>
+                        <p class="menu-item-description">Fondant au chocolat, noix de pécan</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">4.50€</span>
+                            <button class="btn btn-small btn-primary">
+                                <i class="fas fa-shopping-cart"></i> Ajouter
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800" alt="Restaurant">
+                    <div class="experience-badge">
+                        <span class="experience-number">15+</span>
+                        <span class="experience-text">Ans d'Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-subtitle">Notre Histoire</span>
+                    <h2 class="section-title">Une Passion pour<br>la Qualité</h2>
+                    <p class="about-text">Depuis 2008, Burger House s'engage à vous offrir les meilleurs burgers de la région. Notre secret ? Des ingrédients frais, locaux et de qualité supérieure, cuisinés avec passion par notre équipe de chefs expérimentés.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Ingrédients 100% Frais</h4>
+                                <p>Approvisionnement quotidien auprès de producteurs locaux</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Recettes Uniques</h4>
+                                <p>Créations originales de nos chefs passionnés</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Service Rapide</h4>
+                                <p>Livraison en 30 minutes ou gratuit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Clients Satisfaits</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Recettes Uniques</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">Note Moyenne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Galerie Photos</span>
+                <h2 class="section-title">Nos Créations</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=600" alt="Burger">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600" alt="Burger">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600" alt="Burger">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600" alt="Restaurant">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600" alt="Fast Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=600" alt="Burger">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Témoignages</span>
+                <h2 class="section-title">Ce Que Disent Nos Clients</h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Les meilleurs burgers que j'ai jamais mangés ! La qualité des ingrédients est exceptionnelle et le service ultra rapide. Je recommande vivement !"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Client">
+                        <div>
+                            <h4>Sophie Martin</h4>
+                            <span>Cliente régulière</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Un fast-food qui respecte vraiment la qualité ! Les portions sont généreuses, les prix corrects et l'ambiance top. Mon nouveau QG burger !"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=33" alt="Client">
+                        <div>
+                            <h4>Thomas Dubois</h4>
+                            <span>Client satisfait</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Livraison toujours à l'heure, burgers chauds et délicieux. L'option végétarienne est incroyable ! Bravo à toute l'équipe."</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=25" alt="Client">
+                        <div>
+                            <h4>Marie Lefebvre</h4>
+                            <span>Adepte du veggie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-subtitle">Contact</span>
+                    <h2 class="section-title">Restons en Contact</h2>
+                    <p>Une question ? Une réservation ? N'hésitez pas à nous contacter, notre équipe vous répond dans les plus brefs délais.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>123 Avenue de la République<br>75011 Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>01 23 45 67 89<br>06 12 34 56 78</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@burgerhouse.fr<br>commande@burgerhouse.fr</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horaires</h4>
+                                <p>Lun - Dim: 11h00 - 23h00<br>Service continu</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Votre téléphone">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Réservation</option>
+                                <option>Commande</option>
+                                <option>Information</option>
+                                <option>Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+
+                        <div class="form-group-checkbox">
+                            <input type="checkbox" id="rgpd" required>
+                            <label for="rgpd">
+                                J'accepte que mes données personnelles soient utilisées pour me recontacter dans le cadre de ma demande. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour plus d'informations, consultez notre <a href="#" target="_blank">politique de confidentialité</a>. *
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Envoyer le Message
+                        </button>
+
+                        <p class="form-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Vos données sont sécurisées et ne seront jamais partagées
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-burger"></i>
+                        <span>Burger House</span>
+                    </div>
+                    <p class="footer-description">Le meilleur fast-food de Paris, avec des ingrédients frais et des recettes uniques depuis 2008.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Commander en ligne</a></li>
+                        <li><a href="#">Livraison à domicile</a></li>
+                        <li><a href="#">Click & Collect</a></li>
+                        <li><a href="#">Réservation</a></li>
+                        <li><a href="#">Carte cadeau</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Inscrivez-vous pour recevoir nos offres exclusives</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Burger House. Tous droits réservés. | <a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

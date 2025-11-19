@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Club Sportif - Rejoignez notre équipe passionnée. Calendrier, résultats, inscriptions et actualités.">
+    <meta name="keywords" content="club sportif, football, basketball, tennis, volleyball, sport amateur, compétition">
+    <title>Olympique Club - Passion Sport & Performance</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <i class="fas fa-futbol"></i>
+                <span>OLYMPIQUE CLUB</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#equipe" class="nav-link">Équipe</a></li>
+                <li><a href="#calendrier" class="nav-link">Calendrier</a></li>
+                <li><a href="#resultats" class="nav-link">Résultats</a></li>
+                <li><a href="#actualites" class="nav-link">Actualités</a></li>
+                <li><a href="#inscription" class="nav-link">Inscription</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1920&q=80');"></div>
+        <div class="hero-content container">
+            <div class="hero-text" data-aos="fade-right">
+                <h1 class="hero-title">
+                    <span class="title-line">PASSION</span>
+                    <span class="title-line">EXCELLENCE</span>
+                    <span class="title-line">VICTOIRE</span>
+                </h1>
+                <p class="hero-subtitle">Rejoignez le club champion de la région depuis 1985</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">Titres</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">250+</div>
+                        <div class="stat-label">Membres</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">38</div>
+                        <div class="stat-label">Ans d'histoire</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#inscription" class="btn btn-primary">
+                        <i class="fas fa-user-plus"></i> Nous Rejoindre
+                    </a>
+                    <a href="#calendrier" class="btn btn-outline">
+                        <i class="fas fa-calendar"></i> Prochains Matchs
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Équipe Section -->
+    <section class="section equipe" id="equipe">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Notre Force</span>
+                <h2 class="section-title">L'ÉQUIPE PREMIÈRE</h2>
+                <p class="section-description">Les champions qui portent nos couleurs</p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Joueur 1 -->
+                <div class="player-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400&q=80" alt="Capitaine">
+                        <div class="player-number">10</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Lucas MARTIN</h3>
+                        <p class="player-position">Capitaine - Milieu</p>
+                        <div class="player-stats">
+                            <span><i class="fas fa-futbol"></i> 12 buts</span>
+                            <span><i class="fas fa-hands-helping"></i> 8 passes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Joueur 2 -->
+                <div class="player-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&q=80" alt="Attaquant">
+                        <div class="player-number">9</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Thomas BERNARD</h3>
+                        <p class="player-position">Attaquant</p>
+                        <div class="player-stats">
+                            <span><i class="fas fa-futbol"></i> 18 buts</span>
+                            <span><i class="fas fa-hands-helping"></i> 5 passes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Joueur 3 -->
+                <div class="player-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1592656094267-764a45160876?w=400&q=80" alt="Gardien">
+                        <div class="player-number">1</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Antoine ROUSSEAU</h3>
+                        <p class="player-position">Gardien</p>
+                        <div class="player-stats">
+                            <span><i class="fas fa-shield-alt"></i> 14 clean sheets</span>
+                            <span><i class="fas fa-save"></i> 89 arrêts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Joueur 4 -->
+                <div class="player-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=400&q=80" alt="Défenseur">
+                        <div class="player-number">4</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Kevin DUPONT</h3>
+                        <p class="player-position">Défenseur Central</p>
+                        <div class="player-stats">
+                            <span><i class="fas fa-shield-alt"></i> 25 tacles</span>
+                            <span><i class="fas fa-futbol"></i> 3 buts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-section" data-aos="fade-up">
+                <h3 class="staff-title">Staff Technique</h3>
+                <div class="staff-grid">
+                    <div class="staff-member">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h4>Marc LAURENT</h4>
+                        <p>Entraîneur Principal</p>
+                    </div>
+                    <div class="staff-member">
+                        <i class="fas fa-running"></i>
+                        <h4>Sophie MOREAU</h4>
+                        <p>Préparateur Physique</p>
+                    </div>
+                    <div class="staff-member">
+                        <i class="fas fa-medkit"></i>
+                        <h4>Dr. Pierre BLANC</h4>
+                        <p>Médecin du Club</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendrier Section -->
+    <section class="section section-dark calendrier" id="calendrier">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">À Venir</span>
+                <h2 class="section-title">PROCHAINS MATCHS</h2>
+            </div>
+
+            <div class="matches-list">
+                <!-- Match 1 -->
+                <div class="match-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="match-header">
+                        <span class="match-competition">Championnat Régional</span>
+                        <span class="match-date"><i class="far fa-calendar"></i> Sam 25 Nov 2024 - 15h00</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team team-home">
+                            <div class="team-logo">
+                                <i class="fas fa-futbol"></i>
+                            </div>
+                            <h4 class="team-name">Olympique Club</h4>
+                        </div>
+                        <div class="match-vs">VS</div>
+                        <div class="team team-away">
+                            <div class="team-logo">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 class="team-name">FC Rivaux</h4>
+                        </div>
+                    </div>
+                    <div class="match-venue">
+                        <i class="fas fa-map-marker-alt"></i> Stade Municipal - Entrée 8€
+                    </div>
+                </div>
+
+                <!-- Match 2 -->
+                <div class="match-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="match-header">
+                        <span class="match-competition">Coupe Départementale</span>
+                        <span class="match-date"><i class="far fa-calendar"></i> Mer 29 Nov 2024 - 20h30</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team team-away">
+                            <div class="team-logo">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4 class="team-name">AS Challengers</h4>
+                        </div>
+                        <div class="match-vs">VS</div>
+                        <div class="team team-home">
+                            <div class="team-logo">
+                                <i class="fas fa-futbol"></i>
+                            </div>
+                            <h4 class="team-name">Olympique Club</h4>
+                        </div>
+                    </div>
+                    <div class="match-venue">
+                        <i class="fas fa-map-marker-alt"></i> Stade des Champions (Extérieur)
+                    </div>
+                </div>
+
+                <!-- Match 3 -->
+                <div class="match-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="match-header">
+                        <span class="match-competition">Championnat Régional</span>
+                        <span class="match-date"><i class="far fa-calendar"></i> Sam 2 Déc 2024 - 15h00</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team team-home">
+                            <div class="team-logo">
+                                <i class="fas fa-futbol"></i>
+                            </div>
+                            <h4 class="team-name">Olympique Club</h4>
+                        </div>
+                        <div class="match-vs">VS</div>
+                        <div class="team team-away">
+                            <div class="team-logo">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4 class="team-name">Sporting Local</h4>
+                        </div>
+                    </div>
+                    <div class="match-venue">
+                        <i class="fas fa-map-marker-alt"></i> Stade Municipal - Entrée 8€
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Résultats Section -->
+    <section class="section resultats" id="resultats">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Performances</span>
+                <h2 class="section-title">DERNIERS RÉSULTATS</h2>
+            </div>
+
+            <div class="results-grid">
+                <!-- Résultat 1 - Victoire -->
+                <div class="result-card result-win" data-aos="fade-up" data-aos-delay="100">
+                    <div class="result-header">
+                        <span class="result-competition">Championnat Régional</span>
+                        <span class="result-date">18 Nov 2024</span>
+                    </div>
+                    <div class="result-score">
+                        <div class="result-team">
+                            <h4>Olympique Club</h4>
+                        </div>
+                        <div class="result-numbers">
+                            <span class="score-home">3</span>
+                            <span class="score-separator">-</span>
+                            <span class="score-away">1</span>
+                        </div>
+                        <div class="result-team">
+                            <h4>AS Voisins</h4>
+                        </div>
+                    </div>
+                    <div class="result-status">
+                        <i class="fas fa-trophy"></i> VICTOIRE
+                    </div>
+                </div>
+
+                <!-- Résultat 2 - Match Nul -->
+                <div class="result-card result-draw" data-aos="fade-up" data-aos-delay="200">
+                    <div class="result-header">
+                        <span class="result-competition">Championnat Régional</span>
+                        <span class="result-date">11 Nov 2024</span>
+                    </div>
+                    <div class="result-score">
+                        <div class="result-team">
+                            <h4>FC Leaders</h4>
+                        </div>
+                        <div class="result-numbers">
+                            <span class="score-home">2</span>
+                            <span class="score-separator">-</span>
+                            <span class="score-away">2</span>
+                        </div>
+                        <div class="result-team">
+                            <h4>Olympique Club</h4>
+                        </div>
+                    </div>
+                    <div class="result-status">
+                        <i class="fas fa-equals"></i> MATCH NUL
+                    </div>
+                </div>
+
+                <!-- Résultat 3 - Victoire -->
+                <div class="result-card result-win" data-aos="fade-up" data-aos-delay="300">
+                    <div class="result-header">
+                        <span class="result-competition">Coupe Départementale</span>
+                        <span class="result-date">4 Nov 2024</span>
+                    </div>
+                    <div class="result-score">
+                        <div class="result-team">
+                            <h4>Olympique Club</h4>
+                        </div>
+                        <div class="result-numbers">
+                            <span class="score-home">4</span>
+                            <span class="score-separator">-</span>
+                            <span class="score-away">0</span>
+                        </div>
+                        <div class="result-team">
+                            <h4>US Amateurs</h4>
+                        </div>
+                    </div>
+                    <div class="result-status">
+                        <i class="fas fa-trophy"></i> VICTOIRE
+                    </div>
+                </div>
+            </div>
+
+            <!-- Classement -->
+            <div class="ranking-section" data-aos="fade-up">
+                <h3 class="ranking-title">Classement Championnat</h3>
+                <div class="ranking-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Équipe</th>
+                                <th>J</th>
+                                <th>G</th>
+                                <th>N</th>
+                                <th>P</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="team-highlight">
+                                <td class="position">2</td>
+                                <td class="team-name"><strong>Olympique Club</strong></td>
+                                <td>12</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td><strong>26</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="position">1</td>
+                                <td class="team-name">FC Leaders</td>
+                                <td>12</td>
+                                <td>9</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td class="position">3</td>
+                                <td class="team-name">AS Challengers</td>
+                                <td>12</td>
+                                <td>7</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>24</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actualités Section -->
+    <section class="section section-dark actualites" id="actualites">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Dernières News</span>
+                <h2 class="section-title">ACTUALITÉS DU CLUB</h2>
+            </div>
+
+            <div class="news-grid">
+                <!-- News 1 -->
+                <article class="news-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80" alt="Victoire">
+                        <span class="news-badge">Résultat</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="far fa-calendar"></i> 18 Nov 2024</span>
+                            <span><i class="far fa-user"></i> L'Équipe</span>
+                        </div>
+                        <h3 class="news-title">Belle victoire 3-1 face à l'AS Voisins</h3>
+                        <p class="news-excerpt">Une performance collective exceptionnelle qui nous place en excellente position au classement. Nos attaquants Martin et Bernard ont brillé.</p>
+                        <a href="#" class="news-link">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- News 2 -->
+                <article class="news-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=800&q=80" alt="Transfert">
+                        <span class="news-badge">Transfert</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="far fa-calendar"></i> 15 Nov 2024</span>
+                            <span><i class="far fa-user"></i> Direction</span>
+                        </div>
+                        <h3 class="news-title">Nouvelle recrue : Julien LEROY rejoint le club</h3>
+                        <p class="news-excerpt">Le milieu de terrain international junior vient renforcer notre effectif. Bienvenue Julien dans la famille Olympique !</p>
+                        <a href="#" class="news-link">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- News 3 -->
+                <article class="news-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&q=80" alt="Événement">
+                        <span class="news-badge">Événement</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="far fa-calendar"></i> 10 Nov 2024</span>
+                            <span><i class="far fa-user"></i> Club</span>
+                        </div>
+                        <h3 class="news-title">Journée Portes Ouvertes le 2 décembre</h3>
+                        <p class="news-excerpt">Venez découvrir notre club, rencontrer les joueurs et essayer nos équipements. Inscriptions ouvertes pour la saison 2024-2025.</p>
+                        <a href="#" class="news-link">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inscription Section -->
+    <section class="section inscription" id="inscription">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Rejoignez-nous</span>
+                <h2 class="section-title">INSCRIPTION</h2>
+                <p class="section-description">Devenez membre de notre club et vivez votre passion</p>
+            </div>
+
+            <div class="inscription-content">
+                <div class="inscription-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <i class="fas fa-child"></i>
+                        <h3>École de Sport (6-12 ans)</h3>
+                        <p>Initiation et perfectionnement dans une ambiance ludique</p>
+                        <div class="price">150€/an</div>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check"></i> 2 entraînements / semaine</li>
+                            <li><i class="fas fa-check"></i> Équipement fourni</li>
+                            <li><i class="fas fa-check"></i> Encadrement diplômé</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-running"></i>
+                        <h3>Jeunes (13-17 ans)</h3>
+                        <p>Formation technique et compétition régionale</p>
+                        <div class="price">200€/an</div>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check"></i> 3 entraînements / semaine</li>
+                            <li><i class="fas fa-check"></i> Matchs championnat</li>
+                            <li><i class="fas fa-check"></i> Suivi personnalisé</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Seniors (18+ ans)</h3>
+                        <p>Compétition et loisirs selon votre niveau</p>
+                        <div class="price">250€/an</div>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check"></i> Entraînements illimités</li>
+                            <li><i class="fas fa-check"></i> Accès salle musculation</li>
+                            <li><i class="fas fa-check"></i> Événements club</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="inscription-form-container" data-aos="fade-left">
+                    <form class="inscription-form" id="inscriptionForm">
+                        <h3>Demande d'Inscription</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nom">Nom *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="prenom">Prénom *</label>
+                                <input type="text" id="prenom" name="prenom" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date-naissance">Date de naissance *</label>
+                                <input type="date" id="date-naissance" name="date-naissance" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="categorie">Catégorie *</label>
+                                <select id="categorie" name="categorie" required>
+                                    <option value="">Choisir...</option>
+                                    <option value="ecole">École de Sport (6-12 ans)</option>
+                                    <option value="jeunes">Jeunes (13-17 ans)</option>
+                                    <option value="seniors">Seniors (18+ ans)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone *</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Expérience sportive</label>
+                            <select id="experience" name="experience">
+                                <option value="debutant">Débutant</option>
+                                <option value="intermediaire">Intermédiaire</option>
+                                <option value="confirme">Confirmé</option>
+                                <option value="competition">Compétition</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message (questions, besoins spécifiques...)</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-group-checkbox">
+                            <input type="checkbox" id="rgpd" name="rgpd" required>
+                            <label for="rgpd">
+                                J'accepte que mes données personnelles soient utilisées pour traiter ma demande d'inscription.
+                                Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.
+                                <a href="#" target="_blank">Politique de confidentialité</a>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Envoyer ma Demande
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partenaires Section -->
+    <section class="section section-dark partenaires">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Ils nous soutiennent</span>
+                <h2 class="section-title">NOS PARTENAIRES</h2>
+            </div>
+
+            <div class="partners-grid" data-aos="fade-up">
+                <div class="partner-logo">
+                    <i class="fas fa-building"></i>
+                    <span>Ville de Paris</span>
+                </div>
+                <div class="partner-logo">
+                    <i class="fas fa-store"></i>
+                    <span>Sport Équipement</span>
+                </div>
+                <div class="partner-logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Restaurant Le Stade</span>
+                </div>
+                <div class="partner-logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>Clinique Sport Santé</span>
+                </div>
+                <div class="partner-logo">
+                    <i class="fas fa-car"></i>
+                    <span>Garage Olympique</span>
+                </div>
+                <div class="partner-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>École Formation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Contactez-nous</span>
+                <h2 class="section-title">BESOIN D'INFOS ?</h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Adresse</h4>
+                            <p>Stade Municipal<br>12 Avenue des Champions<br>75015 Paris</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+33612345678">06 12 34 56 78</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@olympiqueclub.fr">contact@olympiqueclub.fr</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horaires Secrétariat</h4>
+                            <p>Lun-Ven: 14h - 19h<br>Sam: 9h - 13h</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="contact-nom">Nom *</label>
+                            <input type="text" id="contact-nom" name="nom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email *</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-tel">Téléphone</label>
+                            <input type="tel" id="contact-tel" name="telephone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-sujet">Sujet *</label>
+                            <select id="contact-sujet" name="sujet" required>
+                                <option value="">Choisir...</option>
+                                <option value="inscription">Demande d'inscription</option>
+                                <option value="partenariat">Partenariat</option>
+                                <option value="sponsor">Devenir sponsor</option>
+                                <option value="autre">Autre question</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message *</label>
+                            <textarea id="contact-message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group-checkbox">
+                            <input type="checkbox" id="contact-rgpd" name="rgpd" required>
+                            <label for="contact-rgpd">
+                                J'accepte que mes données personnelles soient utilisées pour me recontacter dans le cadre de ma demande.
+                                Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Envoyer
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-futbol"></i>
+                        <span>OLYMPIQUE CLUB</span>
+                    </div>
+                    <p>Passion, Excellence, Victoire depuis 1985</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Le Club</h4>
+                    <ul>
+                        <li><a href="#equipe">L'Équipe</a></li>
+                        <li><a href="#calendrier">Calendrier</a></li>
+                        <li><a href="#resultats">Résultats</a></li>
+                        <li><a href="#actualites">Actualités</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#inscription">Inscription</a></li>
+                        <li><a href="#">Histoire du Club</a></li>
+                        <li><a href="#">Palmarès</a></li>
+                        <li><a href="#">Infrastructures</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 12 Av. des Champions, Paris</li>
+                        <li><i class="fas fa-phone"></i> 06 12 34 56 78</li>
+                        <li><i class="fas fa-envelope"></i> contact@olympiqueclub.fr</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Olympique Club. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions Légales</a>
+                    <a href="#">Politique de Confidentialité</a>
+                    <a href="#">CGU</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

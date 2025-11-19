@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Garage Auto Expert - Entretien et réparation automobile tous véhicules. Mécanique, carrosserie, diagnostic électronique. Devis gratuit.">
+    <meta name="keywords" content="garage, mécanique auto, réparation voiture, entretien automobile, vidange, révision, pneus, diagnostic, carrosserie">
+    <meta name="author" content="Garage Auto Expert">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Garage Auto Expert - Votre spécialiste automobile">
+    <meta property="og:description" content="Entretien et réparation automobile tous véhicules. Équipe qualifiée, matériel professionnel.">
+
+    <title>Garage Auto Expert - Entretien & Réparation Automobile</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6.4.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Emergency Call Button -->
+    <a href="tel:+33612345678" class="emergency-call" aria-label="Appel d'urgence">
+        <i class="fas fa-phone-volume"></i>
+        <span class="emergency-text">Dépannage<br>24/7</span>
+    </a>
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <!-- Logo -->
+                    <a href="#" class="logo">
+                        <i class="fas fa-car-side"></i>
+                        <div class="logo-text">
+                            <span class="logo-title">AUTO EXPERT</span>
+                            <span class="logo-subtitle">Garage & Mécanique</span>
+                        </div>
+                    </a>
+
+                    <!-- Navigation Links -->
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#a-propos" class="nav-link">À Propos</a></li>
+                        <li><a href="#equipe" class="nav-link">Équipe</a></li>
+                        <li><a href="#galerie" class="nav-link">Réalisations</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+
+                    <!-- Mobile Toggle -->
+                    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>+20 ans d'expertise</span>
+                </div>
+                <h1 class="hero-title">Votre Garage de Confiance</h1>
+                <p class="hero-subtitle">Entretien & Réparation Automobile Tous Véhicules</p>
+                <p class="hero-description">
+                    Équipe qualifiée • Matériel professionnel • Diagnostic électronique de pointe<br>
+                    Toutes marques • Devis gratuit • Garantie pièces & main d'œuvre
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Prendre RDV
+                    </a>
+                    <a href="tel:+33612345678" class="btn btn-outline">
+                        <i class="fas fa-phone"></i> 06 12 34 56 78
+                    </a>
+                </div>
+
+                <!-- Quick Info Bar -->
+                <div class="quick-info" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quick-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Lun - Ven</strong>
+                            <span>8h - 18h</span>
+                        </div>
+                    </div>
+                    <div class="quick-item">
+                        <i class="fas fa-calendar"></i>
+                        <div>
+                            <strong>Samedi</strong>
+                            <span>8h - 12h</span>
+                        </div>
+                    </div>
+                    <div class="quick-item">
+                        <i class="fas fa-wrench"></i>
+                        <div>
+                            <strong>Toutes marques</strong>
+                            <span>Essence & Diesel</span>
+                        </div>
+                    </div>
+                    <div class="quick-item">
+                        <i class="fas fa-car-crash"></i>
+                        <div>
+                            <strong>Dépannage</strong>
+                            <span>7j/7 24h/24</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nos Prestations</span>
+                <h2 class="section-title">Services Professionnels</h2>
+                <p class="section-description">Un service complet pour l'entretien et la réparation de votre véhicule</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <h3 class="service-title">Vidange & Entretien</h3>
+                    <p class="service-description">
+                        Vidange moteur, remplacement filtres (huile, air, habitacle), contrôle niveaux et points de sécurité. Utilisation d'huiles de qualité selon préconisations constructeur.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Vidange moteur complète</li>
+                        <li><i class="fas fa-check"></i> Remplacement filtres</li>
+                        <li><i class="fas fa-check"></i> Contrôle 50 points</li>
+                        <li><i class="fas fa-check"></i> Huiles de marque</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>79€</strong></div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="featured-badge">POPULAIRE</div>
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">Révision Complète</h3>
+                    <p class="service-description">
+                        Révision constructeur selon carnet d'entretien. Diagnostic complet, remplacement pièces d'usure, contrôle système de freinage, suspension, échappement.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Selon carnet constructeur</li>
+                        <li><i class="fas fa-check"></i> Diagnostic électronique</li>
+                        <li><i class="fas fa-check"></i> Pièces d'origine ou équivalent</li>
+                        <li><i class="fas fa-check"></i> Garantie 1 an</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>189€</strong></div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-charging-station"></i>
+                    </div>
+                    <h3 class="service-title">Diagnostic Électronique</h3>
+                    <p class="service-description">
+                        Diagnostic complet avec valise professionnelle multi-marques. Lecture codes défauts, analyse paramètres moteur, système injection, ABS, airbags, climatisation.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Valise professionnelle</li>
+                        <li><i class="fas fa-check"></i> Tous systèmes embarqués</li>
+                        <li><i class="fas fa-check"></i> Rapport détaillé</li>
+                        <li><i class="fas fa-check"></i> Devis gratuit réparations</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>49€</strong></div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-circle-radiation"></i>
+                    </div>
+                    <h3 class="service-title">Pneus & Géométrie</h3>
+                    <p class="service-description">
+                        Vente et montage pneus toutes marques (Michelin, Continental, Bridgestone...). Équilibrage, permutation, géométrie 3D, stockage pneus hiver/été.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Toutes marques en stock</li>
+                        <li><i class="fas fa-check"></i> Montage + équilibrage</li>
+                        <li><i class="fas fa-check"></i> Géométrie laser 3D</li>
+                        <li><i class="fas fa-check"></i> Stockage gratuit</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>15€</strong>/pneu</div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-temperature-low"></i>
+                    </div>
+                    <h3 class="service-title">Climatisation</h3>
+                    <p class="service-description">
+                        Recharge climatisation, recherche fuites, désinfection circuit. Contrôle compresseur, condenseur, détendeur. Station clim professionnelle agrée.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Recharge + désinfection</li>
+                        <li><i class="fas fa-check"></i> Détection fuites UV</li>
+                        <li><i class="fas fa-check"></i> Gaz R134a et R1234yf</li>
+                        <li><i class="fas fa-check"></i> Station agréée</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>69€</strong></div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-brake-warning"></i>
+                    </div>
+                    <h3 class="service-title">Freinage & Suspension</h3>
+                    <p class="service-description">
+                        Remplacement plaquettes, disques, tambours, mâchoires. Purge liquide de frein. Amortisseurs, silent-blocs, rotules de direction et train roulant.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Plaquettes + disques</li>
+                        <li><i class="fas fa-check"></i> Purge circuit</li>
+                        <li><i class="fas fa-check"></i> Amortisseurs</li>
+                        <li><i class="fas fa-check"></i> Train roulant complet</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>99€</strong></div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-gears"></i>
+                    </div>
+                    <h3 class="service-title">Distribution & Embrayage</h3>
+                    <p class="service-description">
+                        Remplacement kit distribution (courroie/chaîne, galets, pompe à eau). Embrayage complet (disque, mécanisme, butée). Selon préconisations constructeur.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Kit complet de marque</li>
+                        <li><i class="fas fa-check"></i> Pompe à eau incluse</li>
+                        <li><i class="fas fa-check"></i> Embrayage 3 pièces</li>
+                        <li><i class="fas fa-check"></i> Garantie 2 ans</li>
+                    </ul>
+                    <div class="service-price">Sur devis</div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3 class="service-title">Contrôle Technique</h3>
+                    <p class="service-description">
+                        Préparation au contrôle technique, contre-visite. Vérification points sensibles, réglage phares, opacité fumées. Centre agréé partenaire.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Pré-contrôle gratuit</li>
+                        <li><i class="fas fa-check"></i> Réglages phares</li>
+                        <li><i class="fas fa-check"></i> Réparations express</li>
+                        <li><i class="fas fa-check"></i> Centre partenaire</li>
+                    </ul>
+                    <div class="service-price">À partir de <strong>39€</strong></div>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can-sparkles"></i>
+                    </div>
+                    <h3 class="service-title">Carrosserie & Peinture</h3>
+                    <p class="service-description">
+                        Réparation carrosserie, débosselage, remplacement éléments. Peinture cabine professionnelle, teintes constructeur. Devis assurance et prise en charge.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cabine peinture pro</li>
+                        <li><i class="fas fa-check"></i> Teintes constructeur</li>
+                        <li><i class="fas fa-check"></i> Devis assurance</li>
+                        <li><i class="fas fa-check"></i> Véhicule de prêt</li>
+                    </ul>
+                    <div class="service-price">Sur devis</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="a-propos" class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content" data-aos="fade-right">
+                    <span class="section-subtitle">Qui Sommes-Nous ?</span>
+                    <h2 class="section-title">20 Ans d'Expertise Automobile</h2>
+                    <p class="about-text">
+                        Fondé en 2003, <strong>Garage Auto Expert</strong> est devenu une référence dans l'entretien et la réparation automobile dans la région. Notre équipe de mécaniciens qualifiés met son expertise au service de votre véhicule.
+                    </p>
+                    <p class="about-text">
+                        Nous disposons d'un équipement professionnel de pointe : pont élévateur 4 colonnes, valises de diagnostic multi-marques, station climatisation agréée, géométrie laser 3D, cabine de peinture aux normes.
+                    </p>
+
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Certifications</h4>
+                                <p>Mécaniciens diplômés et formés en continu</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-handshake"></i>
+                            <div>
+                                <h4>Transparence</h4>
+                                <p>Devis détaillé gratuit avant intervention</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Garantie</h4>
+                                <p>Pièces et main d'œuvre garanties 1 an</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">2500</div>
+                            <div class="stat-label">Véhicules/an</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98</div>
+                            <div class="stat-label">% Satisfaction</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20</div>
+                            <div class="stat-label">Ans d'expérience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Mécaniciens</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&h=900&fit=crop"
+                         alt="Atelier garage professionnel">
+                    <div class="about-badge">
+                        <i class="fas fa-trophy"></i>
+                        <span>Garage de l'année 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Équipe Section -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Notre Équipe</span>
+                <h2 class="section-title">Des Professionnels Qualifiés</h2>
+                <p class="section-description">Une équipe passionnée à votre service</p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Membre 1 -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=500&fit=crop"
+                             alt="Jean Martin - Chef d'atelier">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="mailto:jean@autoexpert.fr" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Jean Martin</h3>
+                        <p class="team-role">Chef d'Atelier</p>
+                        <p class="team-bio">20 ans d'expérience. Spécialiste diagnostic électronique et injection diesel.</p>
+                        <div class="team-certif">
+                            <i class="fas fa-award"></i> CQP Mécanicien Expert
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 2 -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop"
+                             alt="Thomas Dubois - Mécanicien">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="mailto:thomas@autoexpert.fr" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Thomas Dubois</h3>
+                        <p class="team-role">Mécanicien Senior</p>
+                        <p class="team-bio">Expert moteur et distribution. Formation continue marques premium.</p>
+                        <div class="team-certif">
+                            <i class="fas fa-award"></i> BTS Maintenance Auto
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 3 -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=500&fit=crop"
+                             alt="Marc Leroy - Carrossier">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="mailto:marc@autoexpert.fr" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Marc Leroy</h3>
+                        <p class="team-role">Carrossier-Peintre</p>
+                        <p class="team-bio">Spécialiste carrosserie et peinture. Certifié assurances toutes compagnies.</p>
+                        <div class="team-certif">
+                            <i class="fas fa-award"></i> CAP Carrosserie
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 4 -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop"
+                             alt="Sophie Bernard - Accueil">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="mailto:sophie@autoexpert.fr" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Sophie Bernard</h3>
+                        <p class="team-role">Responsable Accueil</p>
+                        <p class="team-bio">Gestion planning RDV, devis, facturation. Votre interlocutrice privilégiée.</p>
+                        <div class="team-certif">
+                            <i class="fas fa-award"></i> BTS Gestion PME
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie / Réalisations Section -->
+    <section id="galerie" class="galerie">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nos Réalisations</span>
+                <h2 class="section-title">Travaux Récents</h2>
+                <p class="section-description">Quelques exemples de nos interventions</p>
+            </div>
+
+            <div class="galerie-grid">
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=600&fit=crop"
+                         alt="Révision moteur BMW">
+                    <div class="galerie-overlay">
+                        <div class="galerie-content">
+                            <h3>Révision Complète</h3>
+                            <p>BMW Série 3 - Révision 80 000 km</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&h=600&fit=crop"
+                         alt="Remplacement distribution">
+                    <div class="galerie-overlay">
+                        <div class="galerie-content">
+                            <h3>Distribution</h3>
+                            <p>Renault Megane - Kit complet</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=600&fit=crop"
+                         alt="Réparation carrosserie">
+                    <div class="galerie-overlay">
+                        <div class="galerie-content">
+                            <h3>Carrosserie</h3>
+                            <p>Peugeot 308 - Aile arrière</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&h=600&fit=crop"
+                         alt="Montage pneus">
+                    <div class="galerie-overlay">
+                        <div class="galerie-content">
+                            <h3>Pneus Premium</h3>
+                            <p>Audi A4 - Michelin Pilot Sport</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1632823469299-d7a85a464f610?w=600&h=600&fit=crop"
+                         alt="Diagnostic électronique">
+                    <div class="galerie-overlay">
+                        <div class="galerie-content">
+                            <h3>Diagnostic</h3>
+                            <p>Mercedes Classe C - Valise pro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600&h=600&fit=crop"
+                         alt="Freinage disques plaquettes">
+                    <div class="galerie-overlay">
+                        <div class="galerie-content">
+                            <h3>Freinage Complet</h3>
+                            <p>VW Golf - Disques + plaquettes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marques Partenaires -->
+    <section class="brands">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Marques Partenaires</span>
+                <h2 class="section-title">Pièces de Qualité</h2>
+            </div>
+
+            <div class="brands-grid" data-aos="fade-up">
+                <div class="brand-item">Bosch</div>
+                <div class="brand-item">Valeo</div>
+                <div class="brand-item">Michelin</div>
+                <div class="brand-item">Continental</div>
+                <div class="brand-item">Mann Filter</div>
+                <div class="brand-item">Castrol</div>
+                <div class="brand-item">Total</div>
+                <div class="brand-item">SKF</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Témoignages</span>
+                <h2 class="section-title">Avis de Nos Clients</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Excellent garage ! Accueil professionnel, devis clair, travail impeccable. Ma révision a été faite dans les temps et à un prix très compétitif. Je recommande vivement."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Pierre Durand</h4>
+                            <p>Client depuis 5 ans</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Équipe très compétente et honnête. Ils ont trouvé la panne que 2 autres garages n'avaient pas détectée. Prix juste et transparence totale sur les interventions."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Marie Lefebvre</h4>
+                            <p>Particulier</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Service rapide et efficace. J'ai fait faire ma distribution + embrayage, tout était parfait. L'équipe prend le temps d'expliquer et de conseiller sans forcer la vente."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Laurent Moreau</h4>
+                            <p>Professionnel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Contact</span>
+                <h2 class="section-title">Prenez Rendez-Vous</h2>
+                <p class="section-description">Nous sommes à votre écoute pour tous vos besoins automobiles</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Adresse</h3>
+                            <p>45 Avenue de la République<br>75011 Paris, France</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Téléphone</h3>
+                            <p><a href="tel:+33612345678">06 12 34 56 78</a><br>
+                               <a href="tel:+33145678901">01 45 67 89 01</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contact@autoexpert.fr">contact@autoexpert.fr</a><br>
+                               <a href="mailto:rdv@autoexpert.fr">rdv@autoexpert.fr</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Horaires</h3>
+                            <p>Lun - Ven : 8h00 - 18h00<br>
+                               Samedi : 8h00 - 12h00<br>
+                               Dimanche : Fermé<br>
+                               <strong>Dépannage 24/7</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nom">Nom complet *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telephone">Téléphone *</label>
+                                <input type="tel" id="telephone" name="telephone" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="vehicule">Marque / Modèle</label>
+                                <input type="text" id="vehicule" name="vehicule" placeholder="Ex: Renault Clio">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service">Type de prestation *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">-- Sélectionnez --</option>
+                                    <option value="vidange">Vidange & Entretien</option>
+                                    <option value="revision">Révision Complète</option>
+                                    <option value="diagnostic">Diagnostic Électronique</option>
+                                    <option value="pneus">Pneus & Géométrie</option>
+                                    <option value="climatisation">Climatisation</option>
+                                    <option value="freinage">Freinage & Suspension</option>
+                                    <option value="distribution">Distribution & Embrayage</option>
+                                    <option value="controle-technique">Contrôle Technique</option>
+                                    <option value="carrosserie">Carrosserie & Peinture</option>
+                                    <option value="depannage">Dépannage</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Date souhaitée</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message / Description de la panne</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre demande..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="rgpd" required>
+                                <span>J'accepte que mes données personnelles soient utilisées pour me recontacter dans le cadre de ma demande. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Envoyer ma demande
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-car-side"></i>
+                        <span>AUTO EXPERT</span>
+                    </div>
+                    <p class="footer-description">
+                        Votre garage de confiance depuis 2003. Entretien et réparation automobile tous véhicules.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Vidange & Entretien</a></li>
+                        <li><a href="#services">Révision Complète</a></li>
+                        <li><a href="#services">Diagnostic Électronique</a></li>
+                        <li><a href="#services">Pneus & Géométrie</a></li>
+                        <li><a href="#services">Carrosserie & Peinture</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#a-propos">À Propos</a></li>
+                        <li><a href="#equipe">Notre Équipe</a></li>
+                        <li><a href="#galerie">Réalisations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Mentions Légales</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Rapide</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            45 Avenue de la République<br>75011 Paris
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+33612345678">06 12 34 56 78</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@autoexpert.fr">contact@autoexpert.fr</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            Lun-Ven: 8h-18h<br>Sam: 8h-12h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Garage Auto Expert. Tous droits réservés.</p>
+                <p class="footer-credits">Site web professionnel pour garage automobile</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

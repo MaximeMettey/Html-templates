@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Groupe de musique rock - Découvrez notre univers musical, dates de concerts, albums et bookings.">
+    <meta name="keywords" content="groupe musique, rock band, concert, album, booking musique, live music">
+    <title>The Black Ravens - Groupe de Rock Français</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <i class="fas fa-guitar"></i>
+                <span>THE BLACK RAVENS</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#groupe" class="nav-link">Le Groupe</a></li>
+                <li><a href="#musique" class="nav-link">Musique</a></li>
+                <li><a href="#concerts" class="nav-link">Concerts</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                <li><a href="#booking" class="nav-link">Booking</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-video">
+            <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&q=80');"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="zoom-in">
+                <h1 class="hero-title">THE BLACK RAVENS</h1>
+                <p class="hero-subtitle">Rock • Alternative • Live Energy</p>
+                <div class="hero-divider"></div>
+                <div class="hero-buttons">
+                    <a href="#musique" class="btn btn-primary">
+                        <i class="fas fa-play"></i> Écouter
+                    </a>
+                    <a href="#concerts" class="btn btn-outline">
+                        <i class="fas fa-ticket-alt"></i> Concerts
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Le Groupe Section -->
+    <section class="section groupe" id="groupe">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">About Us</span>
+                <h2 class="section-title">LE GROUPE</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="groupe-content">
+                <div class="groupe-story" data-aos="fade-right">
+                    <p class="lead">The Black Ravens est né en 2018 de la rencontre explosive de quatre musiciens passionnés partageant une vision commune : créer une musique rock authentique et énergique.</p>
+                    <p>Notre style mélange les racines du rock classique avec des influences alternatives modernes, créant un son unique qui résonne dans les salles de concert à travers toute la France.</p>
+                    <p>Avec deux albums studio à notre actif et plus de 150 concerts dans toute l'Europe, nous continuons à repousser les limites de notre créativité musicale.</p>
+
+                    <div class="groupe-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Concerts</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Albums</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Fans</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Ans</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="membres-grid" data-aos="fade-left">
+                    <div class="membre-card">
+                        <div class="membre-image">
+                            <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=400&q=80" alt="Alex Stone">
+                            <div class="membre-overlay">
+                                <div class="membre-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="membre-info">
+                            <h3 class="membre-name">Alex Stone</h3>
+                            <p class="membre-role">Chant & Guitare</p>
+                        </div>
+                    </div>
+
+                    <div class="membre-card">
+                        <div class="membre-image">
+                            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&q=80" alt="Marc Thunder">
+                            <div class="membre-overlay">
+                                <div class="membre-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="membre-info">
+                            <h3 class="membre-name">Marc Thunder</h3>
+                            <p class="membre-role">Batterie</p>
+                        </div>
+                    </div>
+
+                    <div class="membre-card">
+                        <div class="membre-image">
+                            <img src="https://images.unsplash.com/photo-1556449895-a33c9dba33dd?w=400&q=80" alt="Tom Black">
+                            <div class="membre-overlay">
+                                <div class="membre-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="membre-info">
+                            <h3 class="membre-name">Tom Black</h3>
+                            <p class="membre-role">Basse</p>
+                        </div>
+                    </div>
+
+                    <div class="membre-card">
+                        <div class="membre-image">
+                            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&q=80" alt="Jake Raven">
+                            <div class="membre-overlay">
+                                <div class="membre-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="membre-info">
+                            <h3 class="membre-name">Jake Raven</h3>
+                            <p class="membre-role">Guitare Lead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Musique Section -->
+    <section class="section section-dark musique" id="musique">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Discography</span>
+                <h2 class="section-title">NOTRE MUSIQUE</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="albums-grid">
+                <!-- Album 1 -->
+                <div class="album-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1619983081563-430f63602796?w=600&q=80" alt="Album Dark Horizon">
+                        <div class="album-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3 class="album-title">Dark Horizon</h3>
+                        <p class="album-year">2023</p>
+                        <p class="album-tracks">12 titres</p>
+                        <div class="album-links">
+                            <a href="#" class="album-link"><i class="fab fa-spotify"></i> Spotify</a>
+                            <a href="#" class="album-link"><i class="fab fa-apple"></i> Apple Music</a>
+                            <a href="#" class="album-link"><i class="fab fa-youtube"></i> YouTube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Album 2 -->
+                <div class="album-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=600&q=80" alt="Album Midnight Storm">
+                        <div class="album-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3 class="album-title">Midnight Storm</h3>
+                        <p class="album-year">2020</p>
+                        <p class="album-tracks">10 titres</p>
+                        <div class="album-links">
+                            <a href="#" class="album-link"><i class="fab fa-spotify"></i> Spotify</a>
+                            <a href="#" class="album-link"><i class="fab fa-apple"></i> Apple Music</a>
+                            <a href="#" class="album-link"><i class="fab fa-youtube"></i> YouTube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Album 3 - EP -->
+                <div class="album-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&q=80" alt="EP Echoes">
+                        <div class="album-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3 class="album-title">Echoes (EP)</h3>
+                        <p class="album-year">2019</p>
+                        <p class="album-tracks">5 titres</p>
+                        <div class="album-links">
+                            <a href="#" class="album-link"><i class="fab fa-spotify"></i> Spotify</a>
+                            <a href="#" class="album-link"><i class="fab fa-apple"></i> Apple Music</a>
+                            <a href="#" class="album-link"><i class="fab fa-youtube"></i> YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Streaming Platforms -->
+            <div class="streaming-section" data-aos="fade-up">
+                <h3>Écoutez-nous sur</h3>
+                <div class="streaming-links">
+                    <a href="#" class="streaming-btn">
+                        <i class="fab fa-spotify"></i>
+                        <span>Spotify</span>
+                    </a>
+                    <a href="#" class="streaming-btn">
+                        <i class="fab fa-apple"></i>
+                        <span>Apple Music</span>
+                    </a>
+                    <a href="#" class="streaming-btn">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="#" class="streaming-btn">
+                        <i class="fab fa-deezer"></i>
+                        <span>Deezer</span>
+                    </a>
+                    <a href="#" class="streaming-btn">
+                        <i class="fab fa-soundcloud"></i>
+                        <span>SoundCloud</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concerts Section -->
+    <section class="section concerts" id="concerts">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Tour Dates</span>
+                <h2 class="section-title">PROCHAINS CONCERTS</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="concerts-list">
+                <!-- Concert 1 -->
+                <div class="concert-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="concert-date">
+                        <div class="date-day">15</div>
+                        <div class="date-month">DÉC</div>
+                    </div>
+                    <div class="concert-info">
+                        <h3 class="concert-venue">Le Trianon</h3>
+                        <p class="concert-location"><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                        <p class="concert-time"><i class="far fa-clock"></i> 20h30 - Portes 19h30</p>
+                    </div>
+                    <div class="concert-actions">
+                        <span class="concert-status">Places disponibles</span>
+                        <a href="#" class="btn btn-primary btn-sm">Billets</a>
+                    </div>
+                </div>
+
+                <!-- Concert 2 -->
+                <div class="concert-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="concert-date">
+                        <div class="date-day">22</div>
+                        <div class="date-month">DÉC</div>
+                    </div>
+                    <div class="concert-info">
+                        <h3 class="concert-venue">La Laiterie</h3>
+                        <p class="concert-location"><i class="fas fa-map-marker-alt"></i> Strasbourg, France</p>
+                        <p class="concert-time"><i class="far fa-clock"></i> 21h00 - Portes 20h00</p>
+                    </div>
+                    <div class="concert-actions">
+                        <span class="concert-status">Places disponibles</span>
+                        <a href="#" class="btn btn-primary btn-sm">Billets</a>
+                    </div>
+                </div>
+
+                <!-- Concert 3 -->
+                <div class="concert-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="concert-date">
+                        <div class="date-day">08</div>
+                        <div class="date-month">JAN</div>
+                    </div>
+                    <div class="concert-info">
+                        <h3 class="concert-venue">Le Bikini</h3>
+                        <p class="concert-location"><i class="fas fa-map-marker-alt"></i> Toulouse, France</p>
+                        <p class="concert-time"><i class="far fa-clock"></i> 20h00 - Portes 19h00</p>
+                    </div>
+                    <div class="concert-actions">
+                        <span class="concert-status">Places disponibles</span>
+                        <a href="#" class="btn btn-primary btn-sm">Billets</a>
+                    </div>
+                </div>
+
+                <!-- Concert 4 - Sold Out -->
+                <div class="concert-card sold-out" data-aos="fade-up" data-aos-delay="400">
+                    <div class="concert-date">
+                        <div class="date-day">20</div>
+                        <div class="date-month">JAN</div>
+                    </div>
+                    <div class="concert-info">
+                        <h3 class="concert-venue">Le Transbordeur</h3>
+                        <p class="concert-location"><i class="fas fa-map-marker-alt"></i> Lyon, France</p>
+                        <p class="concert-time"><i class="far fa-clock"></i> 20h30 - Portes 19h30</p>
+                    </div>
+                    <div class="concert-actions">
+                        <span class="concert-status sold">SOLD OUT</span>
+                        <button class="btn btn-disabled btn-sm" disabled>Complet</button>
+                    </div>
+                </div>
+
+                <!-- Concert 5 -->
+                <div class="concert-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="concert-date">
+                        <div class="date-day">05</div>
+                        <div class="date-month">FÉV</div>
+                    </div>
+                    <div class="concert-info">
+                        <h3 class="concert-venue">Rock School Barbey</h3>
+                        <p class="concert-location"><i class="fas fa-map-marker-alt"></i> Bordeaux, France</p>
+                        <p class="concert-time"><i class="far fa-clock"></i> 21h00 - Portes 20h00</p>
+                    </div>
+                    <div class="concert-actions">
+                        <span class="concert-status">Places disponibles</span>
+                        <a href="#" class="btn btn-primary btn-sm">Billets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie Section -->
+    <section class="section section-dark galerie" id="galerie">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Photos & Videos</span>
+                <h2 class="section-title">GALERIE</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="galerie-grid">
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1501612780327-45045538702b?w=800&q=80" alt="Concert">
+                    <div class="galerie-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80" alt="Live">
+                    <div class="galerie-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galerie-item video" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&q=80" alt="Video">
+                    <div class="galerie-overlay">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80" alt="Backstage">
+                    <div class="galerie-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80" alt="Band">
+                    <div class="galerie-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galerie-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80" alt="Performance">
+                    <div class="galerie-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="section booking" id="booking">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">BOOKING & CONTACT</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Réservez The Black Ravens pour vos événements : festivals, salles de concert, événements privés</p>
+            </div>
+
+            <div class="booking-wrapper">
+                <div class="booking-info" data-aos="fade-right">
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Management</h3>
+                            <p>Sophie Durand</p>
+                            <p><a href="mailto:management@theblackravens.fr">management@theblackravens.fr</a></p>
+                            <p><a href="tel:+33612345678">06 12 34 56 78</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Booking Agent</h3>
+                            <p>Rock Events Agency</p>
+                            <p><a href="mailto:booking@theblackravens.fr">booking@theblackravens.fr</a></p>
+                            <p><a href="tel:+33687654321">06 87 65 43 21</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Suivez-nous</h3>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-spotify"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-form-wrapper" data-aos="fade-left">
+                    <form class="booking-form" id="bookingForm">
+                        <h3>Demande de Booking</h3>
+
+                        <div class="form-group">
+                            <label for="nom">Nom / Organisation *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone *</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="type">Type d'événement *</label>
+                            <select id="type" name="type" required>
+                                <option value="">Choisir...</option>
+                                <option value="festival">Festival</option>
+                                <option value="salle">Salle de concert</option>
+                                <option value="prive">Événement privé</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date souhaitée</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="lieu">Lieu</label>
+                                <input type="text" id="lieu" name="lieu" placeholder="Ville, salle...">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget estimé</label>
+                            <select id="budget" name="budget">
+                                <option value="">Choisir...</option>
+                                <option value="small">Moins de 5000€</option>
+                                <option value="medium">5000€ - 10000€</option>
+                                <option value="large">Plus de 10000€</option>
+                                <option value="negocier">À négocier</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Parlez-nous de votre événement..."></textarea>
+                        </div>
+
+                        <div class="form-group-checkbox">
+                            <input type="checkbox" id="rgpd" name="rgpd" required>
+                            <label for="rgpd">
+                                J'accepte que mes données personnelles soient utilisées pour traiter ma demande de booking.
+                                Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Envoyer la Demande
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-guitar"></i>
+                        <span>THE BLACK RAVENS</span>
+                    </div>
+                    <p>Rock • Alternative • Live Energy</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#groupe">Le Groupe</a></li>
+                        <li><a href="#musique">Musique</a></li>
+                        <li><a href="#concerts">Concerts</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Musique</h4>
+                    <ul>
+                        <li><a href="#">Spotify</a></li>
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Deezer</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="#">Mentions Légales</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Black Ravens. All rights reserved.</p>
+                <p>Site web officiel</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
