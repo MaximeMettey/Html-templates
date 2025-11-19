@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agence Web & Digitale - Création de sites web, applications, branding - Experts en développement">
+    <title>Digital Wave - Agence Web & Digitale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">DW</div>
+                <span>Digital Wave</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#team" class="nav-link">Équipe</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Démarrer un Projet</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-ball ball-1"></div>
+            <div class="gradient-ball ball-2"></div>
+            <div class="gradient-ball ball-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <span class="hero-tag">Agence Web & Digitale</span>
+                <h1 class="hero-title">Transformez Votre<br><span class="gradient-text">Vision Digitale</span><br>en Réalité</h1>
+                <p class="hero-description">Nous créons des expériences web exceptionnelles qui propulsent votre business. Design, développement et stratégie digitale sur mesure.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary btn-lg">Voir Nos Projets</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Discuter de Votre Projet</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-number">200+</span><span class="stat-label">Projets Livrés</span></div>
+                    <div class="stat"><span class="stat-number">50+</span><span class="stat-label">Clients Satisfaits</span></div>
+                    <div class="stat"><span class="stat-number">10+</span><span class="stat-label">Ans d'Expertise</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Services</span>
+                <h2 class="section-title">Ce Que Nous Faisons</h2>
+                <p class="section-description">Des solutions digitales complètes pour propulser votre entreprise</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Développement Web</h3>
+                    <p>Sites web sur mesure, applications web progressives, e-commerce performants avec les dernières technologies.</p>
+                    <ul class="service-features">
+                        <li>React, Vue.js, Next.js</li>
+                        <li>Node.js, Laravel, Django</li>
+                        <li>WordPress, Shopify</li>
+                        <li>API & Intégrations</li>
+                    </ul>
+                </div>
+                <div class="service-card glass featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="featured-tag">Populaire</div>
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Applications Mobile</h3>
+                    <p>Applications natives et cross-platform iOS & Android avec React Native et Flutter pour une expérience optimale.</p>
+                    <ul class="service-features">
+                        <li>React Native & Flutter</li>
+                        <li>iOS & Android</li>
+                        <li>Progressive Web Apps</li>
+                        <li>App Store & Play Store</li>
+                    </ul>
+                </div>
+                <div class="service-card glass" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Interfaces utilisateur élégantes et expériences optimisées. Design system, prototypage et tests utilisateurs.</p>
+                    <ul class="service-features">
+                        <li>Figma, Adobe XD</li>
+                        <li>Prototypage interactif</li>
+                        <li>Design System</li>
+                        <li>Tests utilisateurs</li>
+                    </ul>
+                </div>
+                <div class="service-card glass" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégie SEO/SEA, social media, content marketing pour augmenter votre visibilité et vos conversions.</p>
+                    <ul class="service-features">
+                        <li>SEO & SEA</li>
+                        <li>Social Media</li>
+                        <li>Content Marketing</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card glass" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Branding</h3>
+                    <p>Identité visuelle complète, logo, charte graphique, guidelines pour une marque forte et cohérente.</p>
+                    <ul class="service-features">
+                        <li>Logo & Identité</li>
+                        <li>Charte graphique</li>
+                        <li>Brand Guidelines</li>
+                        <li>Support print & digital</li>
+                    </ul>
+                </div>
+                <div class="service-card glass" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Consulting & Support</h3>
+                    <p>Audit technique, conseil stratégique, formation et maintenance pour accompagner votre croissance.</p>
+                    <ul class="service-features">
+                        <li>Audit & Conseil</li>
+                        <li>Maintenance & Support</li>
+                        <li>Formation équipes</li>
+                        <li>Optimisation continue</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Projets Récents</h2>
+                <p class="section-description">Une sélection de nos meilleurs travaux</p>
+            </div>
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" alt="Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Web App</span>
+                                <h3>Dashboard Analytics</h3>
+                                <p>Plateforme SaaS de gestion et analytics en temps réel</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800" alt="App Mobile">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Mobile App</span>
+                                <h3>Fitness Tracker</h3>
+                                <p>Application mobile iOS/Android de coaching sportif</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?w=800" alt="E-commerce">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">E-commerce</span>
+                                <h3>Fashion Store</h3>
+                                <p>Boutique en ligne moderne avec paiement sécurisé</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800" alt="Branding">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Branding</span>
+                                <h3>Tech Startup</h3>
+                                <p>Identité visuelle complète pour startup innovante</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800" alt="Corporate">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Corporate</span>
+                                <h3>Site Institutionnel</h3>
+                                <p>Site vitrine moderne pour groupe international</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800" alt="Food App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="portfolio-category">Mobile</span>
+                                <h3>Food Delivery</h3>
+                                <p>App de livraison avec géolocalisation temps réel</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Process</span>
+                <h2 class="section-title">Notre Méthodologie</h2>
+                <p class="section-description">Un processus éprouvé pour garantir votre succès</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Découverte</h3>
+                        <p>Analyse de vos besoins, objectifs et audience cible. Audit de l'existant et définition de la stratégie.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-left">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Design</h3>
+                        <p>Création de maquettes, wireframes et prototypes interactifs validés avec vous à chaque étape.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-right">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Développement</h3>
+                        <p>Codage avec les meilleures technologies, tests rigoureux et optimisation des performances.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-left">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Lancement</h3>
+                        <p>Déploiement, formation de vos équipes et suivi post-lancement pour garantir le succès.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Équipe</span>
+                <h2 class="section-title">Les Talents Derrière Vos Projets</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-image">
+                        <img src="https://i.pravatar.cc/400?img=12" alt="Sarah">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Sarah Martin</h3>
+                    <span>CEO & Stratégie Digitale</span>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-image">
+                        <img src="https://i.pravatar.cc/400?img=33" alt="Thomas">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <h3>Thomas Dubois</h3>
+                    <span>Lead Designer UI/UX</span>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-image">
+                        <img src="https://i.pravatar.cc/400?img=25" alt="Julie">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Julie Lefebvre</h3>
+                    <span>Lead Developer Full-Stack</span>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-image">
+                        <img src="https://i.pravatar.cc/400?img=68" alt="Marc">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <h3>Marc Bernard</h3>
+                    <span>Marketing & Growth</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Technologies</span>
+                <h2 class="section-title">Notre Stack Technique</h2>
+            </div>
+            <div class="tech-grid" data-aos="fade-up">
+                <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="tech-item"><i class="fab fa-vuejs"></i><span>Vue.js</span></div>
+                <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="tech-item"><i class="fab fa-laravel"></i><span>Laravel</span></div>
+                <div class="tech-item"><i class="fab fa-wordpress"></i><span>WordPress</span></div>
+                <div class="tech-item"><i class="fab fa-shopify"></i><span>Shopify</span></div>
+                <div class="tech-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info glass" data-aos="fade-right">
+                    <h2>Démarrons Votre Projet</h2>
+                    <p>Vous avez un projet web ou mobile en tête ? Discutons-en autour d'un café (virtuel ou réel).</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:hello@digitalwave.fr">hello@digitalwave.fr</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>15 Rue du Digital<br>75002 Paris, France</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass" id="contactForm" data-aos="fade-left">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email *" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Entreprise">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Type de projet *</option>
+                                <option>Site Web</option>
+                                <option>Application Mobile</option>
+                                <option>E-commerce</option>
+                                <option>Branding</option>
+                                <option>Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="">Budget estimé</option>
+                                <option>< 5K€</option>
+                                <option>5K - 15K€</option>
+                                <option>15K - 30K€</option>
+                                <option>> 30K€</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Parlez-nous de votre projet *" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group-checkbox">
+                        <input type="checkbox" id="rgpd" required>
+                        <label for="rgpd">J'accepte que mes données soient utilisées pour me recontacter. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. *</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i> Envoyer le Message
+                    </button>
+                    <p class="form-note"><i class="fas fa-shield-alt"></i> Vos données sont sécurisées</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">DW</div>
+                        <span>Digital Wave</span>
+                    </div>
+                    <p>Agence web & digitale basée à Paris. Nous créons des expériences digitales qui font la différence.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <a href="#services">Développement Web</a>
+                        <a href="#services">Applications Mobile</a>
+                        <a href="#services">UI/UX Design</a>
+                        <a href="#services">Branding</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Agence</h4>
+                        <a href="#team">Équipe</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#process">Process</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="#">Mentions légales</a>
+                        <a href="#">Confidentialité</a>
+                        <a href="#">CGV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Digital Wave. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
