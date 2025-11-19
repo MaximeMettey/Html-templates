@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio photographe professionnel - Mariages, Portraits, Événements">
+    <meta name="keywords" content="photographe, portfolio, mariage, portrait, événement, photo">
+    <title>Alexandre Moreau - Photographe Professionnel</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="camera-icon">
+                <i class="fas fa-camera"></i>
+            </div>
+            <p>Chargement...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <i class="fas fa-camera"></i>
+                    <span>Alexandre Moreau</span>
+                </a>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">À Propos</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#testimonials" class="nav-link">Témoignages</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="#contact" class="btn btn-primary">Réserver</a>
+                </div>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1600');">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1600');">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Capturez Vos Moments Précieux</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Photographe professionnel spécialisé en mariages, portraits et événements</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="#portfolio" class="btn btn-light btn-lg">Voir Mon Travail</a>
+                <a href="#contact" class="btn btn-outline btn-lg">Me Contacter</a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+
+        <!-- Slider Controls -->
+        <button class="slider-control prev" id="prevSlide">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider-control next" id="nextSlide">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <div class="slider-indicators" id="sliderIndicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Mon Travail</span>
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-description">Une sélection de mes meilleurs clichés</p>
+            </div>
+
+            <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="wedding">Mariages</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+                <button class="filter-btn" data-filter="event">Événements</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Wedding Photos -->
+                <div class="portfolio-item" data-category="wedding" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800" alt="Mariage">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Mariage Romantique</h3>
+                                <p>Cérémonie en Provence</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="wedding" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800" alt="Mariage">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Moments Précieux</h3>
+                                <p>Château de la Loire</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portrait Photos -->
+                <div class="portfolio-item portrait-vertical" data-category="portrait" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800" alt="Portrait">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Portrait Studio</h3>
+                                <p>Lumière naturelle</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="portrait" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800" alt="Portrait">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Portrait Professionnel</h3>
+                                <p>Corporate Photography</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Photos -->
+                <div class="portfolio-item" data-category="event" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800" alt="Événement">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Événement Corporate</h3>
+                                <p>Soirée de Gala</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="event" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800" alt="Événement">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Conférence</h3>
+                                <p>Photographie d'entreprise</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nature Photos -->
+                <div class="portfolio-item portrait-vertical" data-category="nature" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Nature">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Paysage Montagneux</h3>
+                                <p>Les Alpes françaises</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="nature" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800" alt="Nature">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Coucher de Soleil</h3>
+                                <p>Côte d'Azur</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="wedding" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800" alt="Mariage">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Détails du Grand Jour</h3>
+                                <p>Mariage élégant</p>
+                                <button class="btn-view">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta" data-aos="fade-up">
+                <p>Vous voulez voir plus de mon travail ?</p>
+                <a href="#contact" class="btn btn-primary btn-lg">Demander le Portfolio Complet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos="fade-right">
+                    <div class="about-image-main">
+                        <img src="https://images.unsplash.com/photo-1554224311-beee1080be99?w=600" alt="Alexandre Moreau">
+                    </div>
+                    <div class="about-image-secondary">
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400" alt="Photographie">
+                    </div>
+                    <div class="about-badge">
+                        <i class="fas fa-award"></i>
+                        <span>10+ Ans<br>d'Expérience</span>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-subtitle">À Propos</span>
+                    <h2 class="section-title">Passionné par la Photographie depuis 2013</h2>
+                    <p class="about-text">Bonjour, je suis Alexandre Moreau, photographe professionnel basé à Paris. Depuis plus de 10 ans, je capture les moments les plus précieux de la vie avec créativité et sensibilité.</p>
+
+                    <p class="about-text">Ma passion pour la photographie a commencé lors d'un voyage en Asie, et depuis, je n'ai jamais lâché mon appareil. Spécialisé dans les mariages, les portraits et les événements, je mets mon expertise au service de vos souvenirs.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Approche Personnalisée</h4>
+                                <p>Chaque projet est unique et mérite une attention particulière</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Équipement Professionnel</h4>
+                                <p>Matériel haut de gamme pour une qualité d'image exceptionnelle</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Post-Production Soignée</h4>
+                                <p>Retouche professionnelle de chaque photo livrée</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Mariages</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2000+</span>
+                            <span class="stat-label">Séances Photo</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Clients Satisfaits</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary btn-lg">Discutons de Votre Projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Prestations</span>
+                <h2 class="section-title">Mes Services</h2>
+                <p class="section-description">Des solutions photographiques adaptées à tous vos besoins</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3 class="service-title">Mariages</h3>
+                    <p class="service-description">Immortalisez le plus beau jour de votre vie avec un reportage photo complet, de la préparation à la soirée.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Couverture complète</li>
+                        <li><i class="fas fa-check"></i> 400+ photos retouchées</li>
+                        <li><i class="fas fa-check"></i> Album premium inclus</li>
+                        <li><i class="fas fa-check"></i> Galerie en ligne privée</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price-label">À partir de</span>
+                        <span class="price-amount">1 500€</span>
+                    </div>
+                    <a href="#contact" class="btn btn-outline btn-block">Demander un Devis</a>
+                </div>
+
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="featured-badge">Populaire</div>
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="service-title">Portraits</h3>
+                    <p class="service-description">Séances photo individuelles ou en famille, en studio ou en extérieur, pour des souvenirs qui vous ressemblent.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Séance 1-2 heures</li>
+                        <li><i class="fas fa-check"></i> 30+ photos retouchées</li>
+                        <li><i class="fas fa-check"></i> Conseils styling</li>
+                        <li><i class="fas fa-check"></i> Livraison numérique</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price-label">À partir de</span>
+                        <span class="price-amount">250€</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-block">Réserver</a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">Événements</h3>
+                    <p class="service-description">Couverture photo professionnelle pour vos événements d'entreprise, conférences, soirées et lancements.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Reportage sur mesure</li>
+                        <li><i class="fas fa-check"></i> Livraison rapide 48h</li>
+                        <li><i class="fas fa-check"></i> Photos haute résolution</li>
+                        <li><i class="fas fa-check"></i> Droits d'utilisation</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price-label">À partir de</span>
+                        <span class="price-amount">500€</span>
+                    </div>
+                    <a href="#contact" class="btn btn-outline btn-block">En Savoir Plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Témoignages</span>
+                <h2 class="section-title">Ce Que Disent Mes Clients</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Alexandre a été exceptionnel pour notre mariage. Il a su capturer chaque émotion, chaque moment précieux. Les photos sont magnifiques, nous sommes ravis !"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=45" alt="Client">
+                        <div>
+                            <h4>Sophie & Pierre Dubois</h4>
+                            <span>Mariage - Juin 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Séance photo en famille absolument parfaite ! Alexandre a réussi à mettre tout le monde à l'aise, y compris nos enfants. Les photos sont superbes, pleines de naturel et d'émotion."</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=32" alt="Client">
+                        <div>
+                            <h4>Marie Laurent</h4>
+                            <span>Portrait Famille - Mars 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Professionnel, créatif et ponctuel. Alexandre a couvert notre événement d'entreprise avec brio. Les photos ont été livrées rapidement et sont de très haute qualité."</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=68" alt="Client">
+                        <div>
+                            <h4>Thomas Bernard</h4>
+                            <span>Événement Corporate - Janvier 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-subtitle">Contact</span>
+                    <h2 class="section-title">Parlons de Votre Projet</h2>
+                    <p class="contact-text">Vous avez un projet photo en tête ? N'hésitez pas à me contacter pour en discuter. Je serai ravi de répondre à toutes vos questions et de créer ensemble quelque chose d'unique.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>15 Rue de la Photographie<br>75010 Paris, France</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+33 6 12 34 56 78<br>Lun - Sam: 9h - 19h</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@alexandremoreau.fr<br>alexandre.moreau@photo.fr</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Pinterest">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Votre nom *" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Votre email *" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Votre téléphone">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" required>
+                                    <option value="">Type de prestation *</option>
+                                    <option value="wedding">Mariage</option>
+                                    <option value="portrait">Portrait</option>
+                                    <option value="event">Événement</option>
+                                    <option value="other">Autre</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="date" class="form-control" placeholder="Date souhaitée">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" rows="6" placeholder="Parlez-moi de votre projet *" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg">
+                            <i class="fas fa-paper-plane"></i> Envoyer le Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-camera"></i>
+                    <span>Alexandre Moreau</span>
+                </div>
+                <p class="footer-text">Photographe professionnel à Paris - Mariages, Portraits & Événements</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Alexandre Moreau Photography. Tous droits réservés.</p>
+                    <div class="footer-links">
+                        <a href="#">Mentions légales</a>
+                        <span>•</span>
+                        <a href="#">Politique de confidentialité</a>
+                        <span>•</span>
+                        <a href="#">CGV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
