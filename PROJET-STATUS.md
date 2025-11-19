@@ -276,6 +276,45 @@ Dernière mise à jour : 19 Novembre 2024
 
 ---
 
+### 10. 💍 Wedding Planner / Organisateur Mariages
+**Dossier:** `templates/wedding-planner/`
+**Status:** ✅ 100% Complet
+
+**Fichiers:**
+- ✅ index.html (1000+ lignes)
+- ✅ css/style.css (1700+ lignes, design romantique)
+- ✅ js/main.js (formulaire devis + animations)
+- ✅ README.md (guide complet marketing & SEO)
+
+**Fonctionnalités:**
+- Hero full-screen romantique avec parallax et ornements décoratifs (❦)
+- Stats hero animées (150 mariages, 100% satisfaction, 10 ans)
+- Scroll indicator avec animation bounce
+- 6 services détaillés (Organisation complète, Coordination jour J, Décoration, Recherche lieu, Traiteur, Animation)
+- Card service "POPULAIRE" mise en avant
+- Section À Propos wedding planner avec photo et certifications AFWP
+- Timeline process 5 étapes verticale élégante (Découverte, Concept, Prestataires, Suivi, Jour J)
+- Portfolio 6 mariages réalisés avec overlay hover (Château, Bohème, Urbain, Destination, Luxe, Jardin)
+- 3 forfaits/packages détaillés (Essentiel 1 500€, Prestige 3 500€, Excellence 6 500€)
+- Témoignages couples 5 étoiles avec dates mariages
+- Formulaire demande devis complet (date mariage min +3 mois, invités, budget, forfait)
+- Mailto + RGPD
+- Note "Premier RDV gratuit"
+- 100% Responsive
+
+**Design unique:**
+- Palette romantique : or/gold/rose poudré/blanc cassé (#D4AF37, #F4C2C2, #FAF9F6)
+- Typographies élégantes : Playfair Display (headings) + Montserrat (texte)
+- Ornements décoratifs floraux (❦)
+- Dégradés dorés et roses doux
+- Style luxe et raffiné
+- Hover effects romantiques
+
+**Adaptable pour:**
+- Event planner luxe, Organisateur anniversaires/fêtes privées, Organisateur événements entreprise, Baby shower planner, Baptêmes/communions, Destination wedding planner
+
+---
+
 ## 📁 Dossiers Créés (Structure Prête)
 
 Les dossiers suivants existent et sont prêts à recevoir des templates :
@@ -394,15 +433,15 @@ d'accès, de rectification et de suppression de vos données.
 ## 📊 Statistiques du Projet
 
 ### Fichiers Créés
-- **HTML:** 9 fichiers (complets)
-- **CSS:** 9 fichiers (10 200+ lignes total)
-- **JavaScript:** 9 fichiers (avec mailto + RGPD)
-- **Documentation:** 10 fichiers README
-- **Total lignes de code:** ~27 000+
+- **HTML:** 10 fichiers (complets)
+- **CSS:** 10 fichiers (11 900+ lignes total)
+- **JavaScript:** 10 fichiers (avec mailto + RGPD)
+- **Documentation:** 11 fichiers README
+- **Total lignes de code:** ~30 500+
 
 ### Dossiers
-- **Templates complets:** 9
-- **Structures prêtes:** 14
+- **Templates complets:** 10
+- **Structures prêtes:** 13
 - **Total dossiers:** 23
 
 ---
@@ -503,6 +542,16 @@ d'accès, de rectification et de suppression de vos données.
 
 ## 📝 Changelog
 
+### Version 1.4.0 (19 Nov 2024)
+- ✅ Ajout template Wedding Planner / Organisateur mariages
+- ✅ 6 services wedding planner + timeline process 5 étapes
+- ✅ Portfolio 6 mariages réalisés avec overlay romantique
+- ✅ 3 forfaits détaillés (Essentiel 1 500€, Prestige 3 500€, Excellence 6 500€)
+- ✅ Formulaire devis complet (date mariage, invités, budget, forfait)
+- ✅ Design romantique rose gold/blanc/crème
+- ✅ Documentation complète marketing, SEO et business
+- ✅ 50% du projet complété ! (10/20+ templates)
+
 ### Version 1.3.0 (19 Nov 2024)
 - ✅ Ajout template Garage Auto / Mécanique automobile
 - ✅ 9 services détaillés avec tarifs indicatifs
@@ -537,7 +586,7 @@ d'accès, de rectification et de suppression de vos données.
 
 **Créer une collection complète de 20+ templates HTML professionnels, prêts pour ThemeForest, couvrant tous les secteurs d'activité principaux.**
 
-**Progress:** 9/20+ templates complets (45%)
+**Progress:** 10/20+ templates complets (50%)
 
 ---
 
