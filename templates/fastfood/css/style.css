@@ -783,6 +783,45 @@ textarea.form-control {
     resize: vertical;
 }
 
+.form-group-checkbox {
+    margin: 25px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.form-group-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.form-group-checkbox label {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--gray-color);
+    cursor: pointer;
+}
+
+.form-group-checkbox a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 13px;
+    color: var(--gray-color);
+    margin-top: 15px;
+}
+
+.form-note i {
+    color: var(--success-color);
+    margin-right: 5px;
+}
+
 /* Footer */
 .footer {
     background: var(--dark-color);

@@ -406,14 +406,58 @@ if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        // Get form data
-        const formData = new FormData(contactForm);
+        // Get form values
+        const inputs = contactForm.querySelectorAll('input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select, textarea');
+        const name = inputs[0].value;
+        const email = inputs[1].value;
+        const phone = inputs[2]?.value || '';
+        const service = contactForm.querySelector('select')?.value || '';
+        const date = contactForm.querySelector('input[type="date"]')?.value || '';
+        const message = contactForm.querySelector('textarea').value;
+        const rgpd = contactForm.querySelector('input[type="checkbox"]')?.checked;
 
-        // Show success message
-        alert('Merci pour votre message ! Je vous répondrai dans les plus brefs délais.');
+        // Validation RGPD
+        if (!rgpd) {
+            alert('Vous devez accepter la politique de confidentialité pour continuer.');
+            return;
+        }
 
-        // Reset form
-        contactForm.reset();
+        // Create email body
+        const emailBody = `
+DEMANDE DE RÉSERVATION PHOTO - ${name}
+======================================
+
+INFORMATIONS CLIENT
+-------------------
+Nom: ${name}
+Email: ${email}
+Téléphone: ${phone}
+
+PROJET
+------
+Type de prestation: ${service}
+Date souhaitée: ${date || 'À déterminer'}
+
+MESSAGE
+-------
+${message}
+
+---
+Demande envoyée via le site.
+RGPD accepté le ${new Date().toLocaleDateString('fr-FR')}
+        `.trim();
+
+        // Create mailto link
+        const mailtoLink = `mailto:contact@alexandremoreau.fr?subject=${encodeURIComponent('Demande Photo - ' + name)}&body=${encodeURIComponent(emailBody)}`;
+
+        // Open email client
+        window.location.href = mailtoLink;
+
+        // Show confirmation
+        setTimeout(() => {
+            alert('Votre client email va s\'ouvrir. Vérifiez et envoyez.\n\nSi rien ne s\'ouvre, appelez le +33 6 12 34 56 78.');
+            contactForm.reset();
+        }, 500);
     });
 }
 

@@ -139,15 +139,65 @@ const contactForm = document.getElementById('contactForm');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // Get form data
-    const formData = new FormData(contactForm);
+    // Get form values
+    const name = contactForm.querySelector('input[type="text"]').value;
+    const email = contactForm.querySelector('input[type="email"]').value;
+    const phone = contactForm.querySelector('input[type="tel"]').value;
+    const subject = contactForm.querySelector('select').value;
+    const message = contactForm.querySelector('textarea').value;
+    const rgpd = contactForm.querySelector('input[type="checkbox"]')?.checked;
 
-    // Here you would typically send the data to a server
-    // For demo purposes, we'll just show an alert
-    alert('Merci pour votre message ! Nous vous contacterons bientôt.');
+    // Validation RGPD
+    if (!rgpd) {
+        alert('Vous devez accepter la politique de confidentialité pour continuer.');
+        return;
+    }
 
-    // Reset form
-    contactForm.reset();
+    // Get subject label
+    const selectElement = contactForm.querySelector('select');
+    const subjectLabel = selectElement.options[selectElement.selectedIndex].text;
+
+    // Create email body
+    const emailBody = `
+DEMANDE DE CONTACT - BURGER HOUSE
+==================================
+
+INFORMATIONS CLIENT
+-------------------
+Nom: ${name}
+Email: ${email}
+Téléphone: ${phone}
+
+TYPE DE DEMANDE
+---------------
+${subjectLabel}
+
+MESSAGE
+-------
+${message}
+
+---
+Cette demande a été envoyée via le formulaire de contact.
+Le client a accepté la politique de confidentialité (RGPD) le ${new Date().toLocaleDateString('fr-FR')}
+    `.trim();
+
+    // Email parameters
+    const mailto = 'contact@burgerhouse.fr';
+    const emailSubject = `${subjectLabel} - ${name}`;
+
+    // Create mailto link
+    const mailtoLink = `mailto:${mailto}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+
+    // Open email client
+    window.location.href = mailtoLink;
+
+    // Show confirmation message
+    setTimeout(() => {
+        alert('Votre client email va s\'ouvrir avec votre message pré-rempli. Vérifiez les informations et envoyez.\n\nSi votre client email ne s\'ouvre pas, contactez-nous au 01 23 45 67 89.');
+
+        // Reset form
+        contactForm.reset();
+    }, 500);
 });
 
 // ===================================
