@@ -203,6 +203,40 @@ Dernière mise à jour : 19 Novembre 2024
 
 ---
 
+### 8. 🥖 Boulangerie / Pâtisserie Artisanale
+**Dossier:** `templates/boulangerie/`
+**Status:** ✅ 100% Complet
+
+**Fichiers:**
+- ✅ index.html (850+ lignes)
+- ✅ css/style.css (1300+ lignes, design chaleureux)
+- ✅ js/main.js (filtres produits + mailto)
+- ✅ README.md (guide complet avec SEO local)
+
+**Fonctionnalités:**
+- Hero avec badge récompense animé (parallax)
+- Barre info rapide (horaires, bio, artisanal, adresse)
+- Section histoire avec valeurs artisanales
+- Catalogue produits filtrable (Pains, Viennoiseries, Pâtisseries, Sandwichs)
+- 12 produits pré-remplis avec photos et prix
+- Section savoir-faire (4 étapes fabrication)
+- Statistiques animées (3000+ pains/semaine, 15 variétés, 100% maison)
+- Témoignages clients avec étoiles
+- Formulaire commande spéciale (événements, entreprise)
+- Mailto + RGPD avec délai minimum 2 jours
+- 100% Responsive
+
+**Design unique:**
+- Palette pain : marron/beige/crème (#8B4513, #FFF8DC)
+- Typographies artisanales (Playfair Display + Open Sans)
+- Ambiance chaleureuse et accueillante
+- Style traditionnel français moderne
+
+**Adaptable pour:**
+- Pâtisserie, Traiteur sandwich, Viennoiserie, Boulangerie bio
+
+---
+
 ## 📁 Dossiers Créés (Structure Prête)
 
 Les dossiers suivants existent et sont prêts à recevoir des templates :
@@ -321,15 +355,15 @@ d'accès, de rectification et de suppression de vos données.
 ## 📊 Statistiques du Projet
 
 ### Fichiers Créés
-- **HTML:** 7 fichiers (complets)
-- **CSS:** 7 fichiers (7500+ lignes total)
-- **JavaScript:** 7 fichiers (avec mailto + RGPD)
-- **Documentation:** 8 fichiers README
-- **Total lignes de code:** ~21 500+
+- **HTML:** 8 fichiers (complets)
+- **CSS:** 8 fichiers (8800+ lignes total)
+- **JavaScript:** 8 fichiers (avec mailto + RGPD)
+- **Documentation:** 9 fichiers README
+- **Total lignes de code:** ~24 000+
 
 ### Dossiers
-- **Templates complets:** 7
-- **Structures prêtes:** 16
+- **Templates complets:** 8
+- **Structures prêtes:** 15
 - **Total dossiers:** 23
 
 ---
@@ -430,6 +464,13 @@ d'accès, de rectification et de suppression de vos données.
 
 ## 📝 Changelog
 
+### Version 1.2.0 (19 Nov 2024)
+- ✅ Ajout template Boulangerie/Pâtisserie artisanale
+- ✅ Catalogue produits filtrable (4 catégories)
+- ✅ Formulaire commande spéciale avec délai minimum
+- ✅ Design chaleureux artisanal
+- ✅ Documentation SEO local complète
+
 ### Version 1.1.0 (19 Nov 2024)
 - ✅ Ajout template Plombier/Artisan complet
 - ✅ Formulaires mailto sur tous templates
@@ -448,7 +489,7 @@ d'accès, de rectification et de suppression de vos données.
 
 **Créer une collection complète de 20+ templates HTML professionnels, prêts pour ThemeForest, couvrant tous les secteurs d'activité principaux.**
 
-**Progress:** 7/20+ templates complets (35%)
+**Progress:** 8/20+ templates complets (40%)
 
 ---
 
