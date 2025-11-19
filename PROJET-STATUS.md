@@ -237,6 +237,45 @@ Dernière mise à jour : 19 Novembre 2024
 
 ---
 
+### 9. 🔧 Garage Auto / Mécanique Automobile
+**Dossier:** `templates/garage/`
+**Status:** ✅ 100% Complet
+
+**Fichiers:**
+- ✅ index.html (850+ lignes)
+- ✅ css/style.css (1400+ lignes, design technique)
+- ✅ js/main.js (formulaire RDV + animations)
+- ✅ README.md (guide complet avec SEO local)
+
+**Fonctionnalités:**
+- Hero full-screen avec parallax sur image atelier
+- Badge "+20 ans d'expertise" animé
+- Quick info bar (horaires, marques, dépannage 24/7)
+- 9 services détaillés avec tarifs (Vidange, Révision, Diagnostic, Pneus, Clim, Freinage, Distribution, CT, Carrosserie)
+- Card service "POPULAIRE" mise en avant
+- Section À Propos avec équipement professionnel
+- 4 statistiques animées (2500 véhicules/an, 98% satisfaction)
+- Section équipe 4 membres avec diplômes/certifications
+- Galerie 6 réalisations (avant/après travaux)
+- Section marques partenaires (Bosch, Valeo, Michelin, Continental...)
+- Témoignages clients 5 étoiles
+- Formulaire prise RDV avec sélection service + date + véhicule
+- Bouton dépannage 24/7 flottant avec animation pulse
+- Mailto + RGPD
+- 100% Responsive
+
+**Design unique:**
+- Palette technique : rouge crimson/noir/gris métallique (#DC143C, #1A1A1A, #808080)
+- Typographies : Rajdhani (headings) + Roboto (texte)
+- Style industriel et professionnel
+- Hover effects sur services et équipe
+- Animations fluides AOS
+
+**Adaptable pour:**
+- Centre auto, Carrosserie, Centre pneumatique, Garage spécialisé (BMW, Mercedes...), Atelier tuning, Garage électrique/hybride
+
+---
+
 ## 📁 Dossiers Créés (Structure Prête)
 
 Les dossiers suivants existent et sont prêts à recevoir des templates :
@@ -355,15 +394,15 @@ d'accès, de rectification et de suppression de vos données.
 ## 📊 Statistiques du Projet
 
 ### Fichiers Créés
-- **HTML:** 8 fichiers (complets)
-- **CSS:** 8 fichiers (8800+ lignes total)
-- **JavaScript:** 8 fichiers (avec mailto + RGPD)
-- **Documentation:** 9 fichiers README
-- **Total lignes de code:** ~24 000+
+- **HTML:** 9 fichiers (complets)
+- **CSS:** 9 fichiers (10 200+ lignes total)
+- **JavaScript:** 9 fichiers (avec mailto + RGPD)
+- **Documentation:** 10 fichiers README
+- **Total lignes de code:** ~27 000+
 
 ### Dossiers
-- **Templates complets:** 8
-- **Structures prêtes:** 15
+- **Templates complets:** 9
+- **Structures prêtes:** 14
 - **Total dossiers:** 23
 
 ---
@@ -464,6 +503,15 @@ d'accès, de rectification et de suppression de vos données.
 
 ## 📝 Changelog
 
+### Version 1.3.0 (19 Nov 2024)
+- ✅ Ajout template Garage Auto / Mécanique automobile
+- ✅ 9 services détaillés avec tarifs indicatifs
+- ✅ Bouton dépannage 24/7 flottant avec pulse animation
+- ✅ Section équipe avec certifications professionnelles
+- ✅ Formulaire RDV avec sélection service et véhicule
+- ✅ Design technique rouge/noir/gris métallique
+- ✅ Documentation complète avec SEO local
+
 ### Version 1.2.0 (19 Nov 2024)
 - ✅ Ajout template Boulangerie/Pâtisserie artisanale
 - ✅ Catalogue produits filtrable (4 catégories)
@@ -489,7 +537,7 @@ d'accès, de rectification et de suppression de vos données.
 
 **Créer une collection complète de 20+ templates HTML professionnels, prêts pour ThemeForest, couvrant tous les secteurs d'activité principaux.**
 
-**Progress:** 8/20+ templates complets (40%)
+**Progress:** 9/20+ templates complets (45%)
 
 ---
 
